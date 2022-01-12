@@ -1,0 +1,403 @@
+.rules {
+  font-family: "Poppins", sans-serif;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.rules > h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.program {
+  font-family: "Poppins", sans-serif;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.program > h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  height: 140vh;
+}
+.first {
+  display: flex;
+  margin: 0 auto;
+  width: 800px;
+  position: relative;
+  top: -300px;
+}
+.headSection {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assets/Dust\ Splash\ Background.jpg");
+  background-size: cover;
+  background-position-y: center;
+  height: 100vh;
+  text-align: center;
+}
+.headSection > h1 {
+  color: #054f9f;
+  font-size: 70px;
+  font-weight: 800 !important;
+  line-height: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.headSection > h4 {
+  color: white;
+  font-size: 30px;
+  line-height: 50px;
+}
+.debtTop > img {
+  display: flex;
+  margin: 0 auto;
+}
+.debtTop > h1 {
+  text-align: center;
+  position: relative;
+  top: -144px;
+  font-family: "Poppins", sans-serif;
+}
+.debtBottom {
+  overflow-x: hidden;
+}
+.blueSplash {
+  object-position: center;
+  width: 150vw;
+  position: relative;
+  left: -33vw;
+}
+.debtBottom {
+  height: 130vh;
+  overflow: hidden;
+}
+.human {
+  height: 625px;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  top: 190px;
+  z-index: 10;
+}
+.total {
+  background-image: url(./assets/Total\ Interest.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px;
+  width: 300px;
+  left: 180px;
+  transform: rotate(20deg);
+}
+.total > h1 {
+  width: 100%;
+  position: relative;
+  top: calc(50% - 20px);
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.years {
+  background-image: url("./assets/Years\ of\ Debt.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px;
+  transform: rotate(-20deg);
+}
+.years > h1 {
+  position: relative;
+  top: 100px;
+  font-size: 70px;
+  font-weight:bold;
+  color:white;
+  text-align:center;
+  font-family: "Poppins", sans-serif;
+}
+.debtBottom-top {
+  display: flex;
+  align-items: center;
+}
+th {
+  color: #054f9f;
+  font-family: "Poppins", sans-serif;
+}
+.table-bordered {
+  border: none !important;
+}
+tbody > tr > td {
+  text-align:right;
+}
+tbody > tr > td.text {
+  text-align:left;
+}
+.debtTable {
+  display: flex !important;
+  margin: 20px auto !important;
+  width: 60% !important;
+  color: #212529;
+  border: none !important;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.debtTable td,
+.debtTable th {
+  border: none !important;
+  font-family: "Poppins", sans-serif;
+}
+.debtTable td,
+.debtTable th {
+  border-top: none !important;
+}
+.debtTable tr { 
+  width:100%;
+}
+.debtTable td:first-child {
+  width: 80%;
+}
+.debtTable td:nth-child(2) {
+  text-align:right
+}
+
+.debtBottom-left {
+  flex: 0.33;
+}
+.debtBottom-middle {
+  flex: 0.33;
+}
+.debtBottom-right {
+  flex: 0.33;
+  transform: rotate(20deg);
+}
+.debtTrajectory {
+  width: 60% !important;
+  display: block !important;
+  margin: 20px auto !important;
+}
+.debtTrajectory > thead {
+  background-color: #054f9f;
+}
+.debtTrajectory > thead > tr > th {
+  color: white;
+}
+.end {
+  background-color: orangered !important;
+  color: white;
+}
+.woman {
+  height: 540px;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  top: 15px;
+  z-index: 10;
+}
+.trajectoryBottom {
+  overflow: hidden;
+  height: 85vh;
+}
+.blueSplash2 {
+  object-position: center;
+  width: 150vw;
+  position: relative;
+  left: -33vw;
+  top: -255px;
+}
+.goldenTop > img {
+  width: 800px;
+  display: flex;
+  margin: 0 auto;
+}
+.goldenTop > h1 {
+  position: relative;
+  top: -193px;
+  width: 800px;
+  color: #212529;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+}
+.goldenBottom {
+  overflow: hidden;
+  height: 120vh;
+}
+.goldenBottom-top {
+  display: flex;
+  align-items: center;
+}
+.debt {
+  background-image: url(./assets/Years\ of\ Debt\ Gold.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px;
+  width: 300px;
+  left: 86px;
+}
+.debt > h1 {
+  position: relative;
+  top: 100px;
+  font-family: "Poppins", sans-serif;
+  font-size: 76px;
+  transform:rotate(-27deg);
+  text-align:center;
+  font-weight:bold;
+}
+.interest {
+  background-image: url(./assets/Total\ Interest\ Gold.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+.interest > h1 {
+  position: relative;
+  top: 135px;
+  text-align:center;
+  font-size:25px;
+  font-family: "Poppins", sans-serif;
+  font-weight:bold;
+  transform: rotate(27deg);
+}
+.goldenSplash {
+  object-position: center;
+  width: 164vw;
+  position: relative;
+  left: -33vw;
+  top: -179px;
+}
+.human1 {
+  height: 625px;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  top: 190px;
+  z-index: 10;
+}
+.comparison {
+  margin: 30px auto;
+}
+.comparison > p {
+  font-family: "Poppins", sans-serif;
+  padding: 40px;
+  text-align: justify;
+}
+.comparison > p > span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+.comparisonBottom {
+  overflow: hidden;
+  height: 90vh;
+}
+.comparisonSplash {
+  object-position: center;
+  width: 164vw;
+  position: relative;
+  left: -33vw;
+  top: -360px;
+}
+.human2 {
+  height: 625px;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+  left: 230px;
+}
+.comparisonBottom-right {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  top: -160px;
+  width: 400px;
+  left: 300px;
+}
+.comparisonBottom-right > p {
+  font-family: "Poppins", sans-serif;
+  padding: 40px;
+  text-align: justify;
+}
+.comparisonBottom-right > p > span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+.goldenContainer {
+  margin: 20px auto;
+}
+.debtPaidTrajectory {
+}
+.debtPaidTrajectory {
+  width: 60% !important;
+  display: block !important;
+  margin: 20px auto !important;
+}
+.debtPaidTrajectory > thead {
+  background-color: #b77e24;
+}
+.debtPaidTrajectory > thead > tr > th {
+  color: white;
+}
+.end1 {
+  background-color: #b77e24 !important;
+  color: white;
+}
+.insuranceTable {
+  width: 90%;
+  display: block !important;
+  margin: 20px auto !important;
+}
+.insuranceTable > thead {
+  background-color: #b77e24;
+}
+.insuranceTable > thead > tr > th {
+  color: white;
+}
+.yellow {
+  background-color: #dea70b;
+}
+.insurance > h1 {
+  text-align: center;
+  margin: 40px auto;
+}
+.insuranceTable > tbody > tr {
+  border-top: none !important;
+}
+.insuranceTable > tbody > tr > td,
+.insuranceTable > tbody > tr > th {
+  border: none !important;
+  font-family: "Poppins", sans-serif;
+}
+.downloadButton {
+  display: flex;
+  width: 200px;
+  border-radius: 30px;
+  border: 2px solid turquoise;
+  padding: 10px 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  background-color: white;
+  margin: 30px auto;
+}
+.downloadButton > button {
+  outline-width: 0;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  margin: 0 auto;
+}
