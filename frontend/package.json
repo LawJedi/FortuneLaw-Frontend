@@ -1,0 +1,26 @@
+{
+  "name": "loan-form",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "gridsome": "^0.7.23",
+    "handlebars": "^4.7.6",
+    "hubspot": "^2.3.14",
+    "jspdf": "^2.3.1",
+    "jspdf-autotable": "^3.5.14",
+    "mongodb": "^3.6.7",
+    "multer": "^1.4.2",
+    "node-url-shortener": "^1.1.11",
+    "puppeteer": "^5.5.0",
+    "request": "^2.88.2",
+    "vuetify": "^2.3.15"
+  },
+  "devDependencies": {
+    "webpack-node-externals": "^2.5.2"
+  }
+}
