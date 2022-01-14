@@ -100,7 +100,7 @@ export default function (Vue, { head, appOptions }) {
     }
   }
 
-  Vue.prototype.ORIGIN = "http://qualyval.mynetgear.com:4010/backend"
+  Vue.prototype.ORIGIN = "https://fortune-law.ngrok.io"
   // Vue.prototype.ORIGIN = "http://localhost:9000"
 
   let opts={};
